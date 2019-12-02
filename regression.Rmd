@@ -10,12 +10,8 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 
 library(tidyverse)
-library(viridis)
-library(leaflet)
 library(dplyr)
-library(corrplot)
 library(modelr)
-library(mgcv)
 library(purrr)
 library(stringr)
 

@@ -22,36 +22,8 @@ library(tidyverse)
     ## ✖ dplyr::lag()    masks stats::lag()
 
 ``` r
-library(viridis)
-```
-
-    ## Loading required package: viridisLite
-
-``` r
-library(leaflet)
 library(dplyr)
-library(corrplot)
-```
-
-    ## corrplot 0.84 loaded
-
-``` r
 library(modelr)
-library(mgcv)
-```
-
-    ## Loading required package: nlme
-
-    ## 
-    ## Attaching package: 'nlme'
-
-    ## The following object is masked from 'package:dplyr':
-    ## 
-    ##     collapse
-
-    ## This is mgcv 1.8-28. For overview type 'help("mgcv-package")'.
-
-``` r
 library(purrr)
 library(stringr)
 
